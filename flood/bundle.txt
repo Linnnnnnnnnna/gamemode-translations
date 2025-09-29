@@ -5,8 +5,12 @@
 # [accent] - colors (you can consult with io developers if you think a change/removal would benefit the readability)
 # \n - newlines and backslashes at the end of the strings
 
-# Translation credits, separate each entry with a newline
-credits = io community
+# Translation credits, separate each entry in credit.authors with a newline:
+# Author\
+# \nAuthor2\
+# \mAuthor3
+credits = [stat]Translation made possible thanks to:
+credits.authors = [sky]io community
 
 # Chat notifications
 chat.guardian.left = [accent]<Flood> Guardian left, looking for replacements
@@ -176,7 +180,8 @@ tutorial.entry12.contents =  [red]Spore Launchers[]\
   \n\n[accent]Thorium Reactors[] fire long distance artillery called [purple]spores[], that release [blue]Flood[] on impact.\
   \nYou can defend against [purple]spores[] with\
   \n [accent]Segments[],  [accent]Shockwave Towers[],\
-  \n [accent]Force Projectors[], [accent]Unit shields[].
+  \n [accent]Force Projectors[], [accent]Unit shields[].\
+  \n[purple]Spores[] can collide with units, losing their [blue]Flood[] charge, however, the bullet still remains and can do damage.
 tutorial.entry13.title = [accent] Content |  Flood (4/12)
 tutorial.entry13.contents =  [red]Flood Mass Drivers[]\
   \n\n[accent]Mass Drivers[] collect and transport [blue]Flood[] over long distances.
