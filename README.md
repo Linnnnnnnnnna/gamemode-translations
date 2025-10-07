@@ -15,5 +15,5 @@ You shouldn't translate the following proper nouns:
 - **Flood**
 - **FloodCompat**
 
-Please also make sure that your text editor uses UTF8/16 encoding.
+Please also make sure that your text editor uses the ISO-8859-1 encoding.
 [Visual Studio Code](https://code.visualstudio.com/) is known to have few to no issues with it.
