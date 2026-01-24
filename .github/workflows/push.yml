@@ -42,5 +42,5 @@ jobs:
           git -C "${workdir}" config user.name "Github Actions"
           git -C "${workdir}" config user.email "actions@github.com"
           git -C "${workdir}" add -A
-          git -C "${workdir}" commit -m "Sync bundles from gamemode-translations (${{ matrix.target.name }})"
+          git -C "${workdir}" commit -m "Sync bundles from gamemode-translations [skip ci]"
           git -C "${workdir}" push
